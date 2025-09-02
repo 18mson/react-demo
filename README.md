@@ -1,3 +1,58 @@
+# How to Use This Project
+
+### Prerequisites
+- Node.js (v16 or higher recommended)
+- npm or yarn
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/18mson/react-demo.git
+   cd react-demo
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+### Running the Development Server
+Start the app in development mode:
+```bash
+npm run dev
+# or
+yarn dev
+```
+The app will be available at [http://localhost:5173](http://localhost:5173) by default.
+
+### Building for Production
+To build the app for production:
+```bash
+npm run build
+# or
+yarn build
+```
+The output will be in the `dist` folder.
+
+### Previewing the Production Build
+To preview the production build locally:
+```bash
+npm run preview
+# or
+yarn preview
+```
+
+### Linting
+To run ESLint:
+```bash
+npm run lint
+# or
+yarn lint
+```
+
+---
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -67,3 +122,6 @@ export default tseslint.config([
   },
 ])
 ```
+
+---
+For more details, see the sections above or the official Vite and React documentation.
