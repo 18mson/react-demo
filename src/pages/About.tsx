@@ -3,7 +3,7 @@ import { Code2, Palette, Smartphone, Zap, Shield, Users } from 'lucide-react';
 
 const About: React.FC = () => {
   const technologies = [
-    { name: 'React 18', description: 'Modern React with hooks and concurrent features' },
+    { name: 'React 19', description: 'Modern React with hooks and concurrent features' },
     { name: 'TypeScript', description: 'Type-safe JavaScript for better development experience' },
     { name: 'Tailwind CSS', description: 'Utility-first CSS framework for rapid UI development' },
     { name: 'React Router', description: 'Declarative routing for React applications' },
